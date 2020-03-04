@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #390050;
+}
+
+h1 {
+  color: #6bc5d2;
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
+  font-family: 'Leckerli One', cursive;
+  line-height: 2;
+}
+
+h2 {
+  color: #6bc5d2;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #5a5d9d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-top: 5px dotted #5a5d9d;
+    width: 5%;
+    margin-top: 70px;
+}
+
+p {
+  line-height: 2;
+}
+
+a:hover {
+  color: #e1f5f2;
+}
+
+.top-container {
+  background-color: #e1f5f2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #6bc5d2;
+  padding: 50px 0px 20px 0px;
+  margin-bottom: 0px;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.photoshop-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.html-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.footer-link {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copy-right {
+  color: #e1f5f2;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.button {
+  margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 18px;
+    border: 2px solid #8f8dab;
+    border-radius: 17px;
+    background: #cccaf4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#cccaf4), to(#8f8dab));
+    background: -moz-linear-gradient(top, #cccaf4, #8f8dab);
+    background: linear-gradient(to bottom, #cccaf4, #8f8dab);
+    font: normal normal normal 15px verdana;
+    color: #ffffff;
+    text-decoration: none;
+}
